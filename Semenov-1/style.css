@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url(./media/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 40px;
+    max-width: 2500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    float: left;
+    margin-left: 110px;
+}
+
+nav li{
+    display: flex;
+    gap: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.header img{
+    width: 46px;
+    height: 71px;
+}
+.text1 p{
+    color: white;
+}
+.text_venom{
+    margin-top: 80px;
+    margin-left: 110px;
+}
+.text_venom p{
+    color: white;
+}
+.text_venom img{
+    margin-top: 38.1px;
+    margin-bottom: 40.7px;
+}
+.img_venom{
+    position: absolute;
+    left: 1192px;
+}
+.bg_blood{
+    background-image: url(./media/blood.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+.btns{
+    margin-left: 110px;
+    display: flex;
+}
+.btn1{
+
+}
+.btn2{
+    
+}
